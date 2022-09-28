@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    /* box-shadow: 0 0 0.95em rgba(0, 0, 0, 0.5); */
+    width: 800px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.card1 {
+    background-color: #0950F8;
+    box-shadow: 0 0 0.95em rgba(0, 0, 0, 0.5);
+    width: 800px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.cardhero {
+    flex: 0 0 50%;
+    position: relative;
+}
+
+.card-img {
+    display: block;
+    width: 100%;
+}
+
+.cardcontent {
+    flex: 1;
+    padding: 35px 35px 25px 35px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(4, 4, 4);
+}
+
+.cardcontent1 {
+    flex: 1;
+    padding: 35px 35px 25px 35px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+cardinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.content1 {
+    font-size: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+/* Card 2 */
+
+.card2 {
+    background-color: #0950F8;
+    width: 800px;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.main {
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+}
+.itworks {
+    background-color: #fff;
+    width: 350px;
+}
+
+.howitworks {
+    font-size: 20px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 13px;
+}
+
+
+/* Button */
+
+
+.btn-sign {
+    background: #0950f8;
+    color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 2px solid #0950f8;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 6px;
+}
+
+.btn-sign:hover {
+    border: 2px solid #0950f8;
+    background: #fff;
+    color: #0950f8;
+    
+}
+
+.btn-chat1 {
+    background: #ffff;
+    color: blue;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 2px solid #0950f8;
+}
+
+.btn-chat1:hover {
+    border: 2px solid #0950f8;
+    background: #0950f8;
+    color: #fff;
+}
+
+.free {
+    font-size: 8px;
+    margin-top: 15px;
+}
+
+span {
+    font-size: 20px;
+    color: #0950f8;
+}
+
+hr {
+    margin-left: 180px;
+    margin-right: 190px;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0950f8;
+    height: auto;
+    padding-top: 40px;
+    width: 100vw;
+    color: whitesmoke;
+    margin-top: 55px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.buttom {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#key {
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+
+/* Footer Button */
+
+.btn-get {
+    background: #7FD025;
+    color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 2px solid #7FD025;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 10px;
+}
+
+.btn-get:hover {
+    border: 2px solid #7FD025;
+    background: #0950F8;
+    color: #fff;
+    
+}
+
+.btn-chat {
+    background: #ffff;
+    color: blue;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    margin-left: 10px;
+}
+
+.btn-chat:hover {
+    border: 2px solid #7FD025;
+    background: #0950f8;
+    color: #fff;
+}
+
+.more-test {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
